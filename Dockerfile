@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:8-jdk-alpine
 EXPOSE 8080
 #ADD target/dockercalc.jar dockercalc.jar
 HEALTHCHECK --interval=5s \
