@@ -9,10 +9,10 @@ import org.junit.*;
 
 public class AppTest {
 
-    private Main calc;
+    private Calc calc;
     @Before
     public void setUp() {
-        calc = new Main();
+        calc = new Calc();
     }
 
     @Test
