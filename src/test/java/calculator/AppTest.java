@@ -7,7 +7,7 @@ import org.junit.Before;
 
 import org.junit.*;
 
-public class Calculator_Test {
+public class AppTest {
 
     private Calc calc;
     @Before
