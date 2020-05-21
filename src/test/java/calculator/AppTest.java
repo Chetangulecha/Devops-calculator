@@ -1,23 +1,20 @@
 package calculator;
 
-import org.junit.Before;
+import static org.junit.Assert.assertTrue;
 
-import org.junit.*;
+import org.junit.Test;
 
-public class Calculator_Test {
-
-    private Main calc;
-    @Before
-    public void setUp() {
-        calc = new Main();
-    }
-
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+    /**
+     * Rigorous Test :-)
+     */
     @Test
-    public void testAdd() {
-        int a = 12;
-        int b = 21;
-        int expectedResult = 33;
-        long result = calc.add(a, b);
-        Assert.assertEquals(expectedResult, result);;
+    public void shouldAnswerWithTrue()
+    {
+        assertTrue( true );
     }
 }
